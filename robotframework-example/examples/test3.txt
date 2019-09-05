@@ -1,0 +1,15 @@
+*** Settings ***
+
+
+*** Variables ***
+${var1}		10
+${var2}		20
+
+*** Keywords ***
+
+*** Test Cases ***
+Test3 Copy Example
+	Log   ${var1}
+	Log   ${var2}
+	${var3}=   Get Variable Value
+	Log   ${var3}

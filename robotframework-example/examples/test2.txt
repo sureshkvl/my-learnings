@@ -1,0 +1,20 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Variables ***
+${var1}		10
+${var2}		20
+
+*** Keywords ***
+Add Example
+	[Arguments]    ${element1}    ${element2}
+	${result}=   Evaluate   ${element1}+${element2}
+	Return from Keyword    ${result}
+
+
+*** Test Cases ***
+Test2 Return Example
+	${result}=   Add Example  ${var1}   ${var2}
+	Log  ${result}
+	${result1}=   Add Example  100   200
+	Log  ${result1}

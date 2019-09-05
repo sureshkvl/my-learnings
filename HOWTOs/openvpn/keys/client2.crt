@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=IN, ST=TN, L=Chennai, O=calsoftlabs, OU=KEYSURESH, CN=CNSURESH/name=NAMESURESH/emailAddress=sureshkumar.s@calsoftlabs.com
+        Validity
+            Not Before: Mar 15 16:12:28 2014 GMT
+            Not After : Mar 12 16:12:28 2024 GMT
+        Subject: C=IN, ST=TN, L=Chennai, O=calsoftlabs, OU=KEYSURESH, CN=client2/name=NAMESURESH/emailAddress=mail@host.domain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:ca:cd:8f:9f:c8:68:c6:1c:42:16:c9:47:fd:d1:
+                    02:dc:14:6d:ec:bb:7c:2f:e9:0d:d9:5b:45:df:70:
+                    fd:93:a7:3d:aa:f8:32:47:eb:3c:e7:b0:80:fd:50:
+                    c7:05:09:1b:f6:d8:ec:8b:ae:97:e4:83:a0:57:86:
+                    95:80:fb:f0:5e:46:41:ba:17:4b:b2:a3:f0:7b:fd:
+                    59:1a:86:11:81:e7:1a:d1:0a:34:6c:60:c3:fd:13:
+                    cb:64:d9:05:19:c4:48:10:1a:10:45:c6:ac:46:92:
+                    fb:50:0b:64:23:ee:99:d3:98:fc:9e:57:c9:6a:54:
+                    46:7e:75:e9:3b:a8:5a:30:53
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                EC:B8:E3:7F:A0:50:D0:17:F3:62:EF:AC:A6:F9:9D:FB:43:4B:80:E8
+            X509v3 Authority Key Identifier: 
+                keyid:4D:B4:A1:3D:E8:90:2D:FC:F2:DF:50:3E:14:08:7F:DB:AA:D7:BB:45
+                DirName:/C=IN/ST=TN/L=Chennai/O=calsoftlabs/OU=KEYSURESH/CN=CNSURESH/name=NAMESURESH/emailAddress=sureshkumar.s@calsoftlabs.com
+                serial:AC:65:0A:8C:64:3A:5A:C8
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         60:6e:5c:8c:f4:94:4e:b8:a8:dd:47:bd:03:8b:22:a5:91:35:
+         41:33:af:2d:49:78:e2:d8:3e:c7:ad:81:a8:e9:45:0c:97:ba:
+         cd:b6:0c:04:1c:c4:e2:1e:b0:11:6c:f9:76:7f:83:63:58:7f:
+         7b:9e:63:d6:60:e4:41:b7:ab:e4:4a:02:63:1b:69:af:d4:d9:
+         bd:d2:6f:29:f3:86:ad:a2:d7:a1:e5:58:c1:d9:11:53:90:11:
+         ee:07:8d:7a:3b:05:ae:f7:cc:df:b2:ef:76:99:29:e7:be:da:
+         b8:50:92:03:46:60:45:30:25:5c:6b:5b:7f:22:09:5e:ef:24:
+         8a:7c
+-----BEGIN CERTIFICATE-----
+MIIEJzCCA5CgAwIBAgIBAzANBgkqhkiG9w0BAQUFADCBrDELMAkGA1UEBhMCSU4x
+CzAJBgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQwEgYDVQQKEwtjYWxzb2Z0
+bGFiczESMBAGA1UECxMJS0VZU1VSRVNIMREwDwYDVQQDEwhDTlNVUkVTSDETMBEG
+A1UEKRMKTkFNRVNVUkVTSDEsMCoGCSqGSIb3DQEJARYdc3VyZXNoa3VtYXIuc0Bj
+YWxzb2Z0bGFicy5jb20wHhcNMTQwMzE1MTYxMjI4WhcNMjQwMzEyMTYxMjI4WjCB
+njELMAkGA1UEBhMCSU4xCzAJBgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQw
+EgYDVQQKEwtjYWxzb2Z0bGFiczESMBAGA1UECxMJS0VZU1VSRVNIMRAwDgYDVQQD
+EwdjbGllbnQyMRMwEQYDVQQpEwpOQU1FU1VSRVNIMR8wHQYJKoZIhvcNAQkBFhBt
+YWlsQGhvc3QuZG9tYWluMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKzY+f
+yGjGHEIWyUf90QLcFG3su3wv6Q3ZW0XfcP2Tpz2q+DJH6zznsID9UMcFCRv22OyL
+rpfkg6BXhpWA+/BeRkG6F0uyo/B7/VkahhGB5xrRCjRsYMP9E8tk2QUZxEgQGhBF
+xqxGkvtQC2Qj7pnTmPyeV8lqVEZ+dek7qFowUwIDAQABo4IBYzCCAV8wCQYDVR0T
+BAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmlj
+YXRlMB0GA1UdDgQWBBTsuON/oFDQF/Ni76ym+Z37Q0uA6DCB4QYDVR0jBIHZMIHW
+gBRNtKE96JAt/PLfUD4UCH/bqte7RaGBsqSBrzCBrDELMAkGA1UEBhMCSU4xCzAJ
+BgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQwEgYDVQQKEwtjYWxzb2Z0bGFi
+czESMBAGA1UECxMJS0VZU1VSRVNIMREwDwYDVQQDEwhDTlNVUkVTSDETMBEGA1UE
+KRMKTkFNRVNVUkVTSDEsMCoGCSqGSIb3DQEJARYdc3VyZXNoa3VtYXIuc0BjYWxz
+b2Z0bGFicy5jb22CCQCsZQqMZDpayDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNV
+HQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAYG5cjPSUTrio3Ue9A4sipZE1QTOv
+LUl44tg+x62BqOlFDJe6zbYMBBzE4h6wEWz5dn+DY1h/e55j1mDkQber5EoCYxtp
+r9TZvdJvKfOGraLXoeVYwdkRU5AR7geNejsFrvfM37Lvdpkp577auFCSA0ZgRTAl
+XGtbfyIJXu8kinw=
+-----END CERTIFICATE-----

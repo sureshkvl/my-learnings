@@ -1,0 +1,10 @@
+*** Settings ***
+*** Variables ***
+*** Keywords ***
+*** Test Cases ***
+For Loop Example
+	@{VALUES}=   Create list 		Test1   Test2     Test3    CONTINUE   Test4    Exit     Test5
+	:FOR  ${var}   in   @{VALUES}
+	\    Continue For Loop If    '${var}' == 'CONTINUE'
+	\	 Run Keyword If		'${var}' == 'EXIT'   Exit For Loop
+	\	 Log  ${var}

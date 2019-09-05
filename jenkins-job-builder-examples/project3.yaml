@@ -1,0 +1,5 @@
+- project:
+    name: job3
+    command: find .
+    jobs:
+      - '{name}_job'

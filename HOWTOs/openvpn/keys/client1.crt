@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=IN, ST=TN, L=Chennai, O=calsoftlabs, OU=KEYSURESH, CN=CNSURESH/name=NAMESURESH/emailAddress=sureshkumar.s@calsoftlabs.com
+        Validity
+            Not Before: Mar 15 16:12:15 2014 GMT
+            Not After : Mar 12 16:12:15 2024 GMT
+        Subject: C=IN, ST=TN, L=Chennai, O=calsoftlabs, OU=KEYSURESH, CN=client1/name=NAMESURESH/emailAddress=mail@host.domain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:bc:d9:21:9a:6f:70:5a:a0:54:4a:b5:15:05:7b:
+                    a0:b5:b6:c2:35:38:02:20:97:ee:2f:e3:ab:a3:8a:
+                    54:5a:bd:23:69:17:3f:f0:b1:1c:3e:71:8a:d3:1c:
+                    20:19:e5:df:dd:a6:fc:1d:89:0e:2b:09:2a:13:06:
+                    f0:f7:84:c4:84:23:91:cd:d5:0b:cf:c4:3c:42:12:
+                    14:04:ff:83:92:12:66:44:42:2e:fd:6c:ea:44:a4:
+                    0b:4e:2a:98:f7:b1:92:91:17:e3:fa:f8:d7:23:b5:
+                    a4:9a:9f:66:94:e9:db:0d:33:ea:31:3f:29:20:4e:
+                    64:30:76:a5:19:ec:9a:bd:63
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                B0:E2:25:7A:AA:E3:29:C0:89:27:17:CF:F4:CF:40:6B:F1:1B:2F:6C
+            X509v3 Authority Key Identifier: 
+                keyid:4D:B4:A1:3D:E8:90:2D:FC:F2:DF:50:3E:14:08:7F:DB:AA:D7:BB:45
+                DirName:/C=IN/ST=TN/L=Chennai/O=calsoftlabs/OU=KEYSURESH/CN=CNSURESH/name=NAMESURESH/emailAddress=sureshkumar.s@calsoftlabs.com
+                serial:AC:65:0A:8C:64:3A:5A:C8
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         5a:4f:96:47:98:67:cc:6f:f0:00:88:cb:5b:89:49:32:3b:0d:
+         a8:be:4d:5f:4f:22:3b:e6:af:e1:92:cf:d9:8c:b5:0f:b3:94:
+         c8:03:6d:83:0f:54:b0:27:64:ae:68:8d:1e:f5:f2:0a:9d:ae:
+         c4:ea:47:44:0c:f4:9f:10:c0:8a:65:cc:29:8e:23:63:13:93:
+         54:73:5e:78:7e:c7:a6:27:e0:c2:a1:a7:44:e4:32:14:f7:c0:
+         c0:bc:a6:11:37:b3:3a:74:0b:1f:3a:a2:e3:a1:06:20:e1:24:
+         fa:17:75:f4:a6:65:01:82:35:e8:ec:9b:4b:a0:4c:31:9d:ac:
+         0a:4b
+-----BEGIN CERTIFICATE-----
+MIIEJzCCA5CgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBrDELMAkGA1UEBhMCSU4x
+CzAJBgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQwEgYDVQQKEwtjYWxzb2Z0
+bGFiczESMBAGA1UECxMJS0VZU1VSRVNIMREwDwYDVQQDEwhDTlNVUkVTSDETMBEG
+A1UEKRMKTkFNRVNVUkVTSDEsMCoGCSqGSIb3DQEJARYdc3VyZXNoa3VtYXIuc0Bj
+YWxzb2Z0bGFicy5jb20wHhcNMTQwMzE1MTYxMjE1WhcNMjQwMzEyMTYxMjE1WjCB
+njELMAkGA1UEBhMCSU4xCzAJBgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQw
+EgYDVQQKEwtjYWxzb2Z0bGFiczESMBAGA1UECxMJS0VZU1VSRVNIMRAwDgYDVQQD
+EwdjbGllbnQxMRMwEQYDVQQpEwpOQU1FU1VSRVNIMR8wHQYJKoZIhvcNAQkBFhBt
+YWlsQGhvc3QuZG9tYWluMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC82SGa
+b3BaoFRKtRUFe6C1tsI1OAIgl+4v46ujilRavSNpFz/wsRw+cYrTHCAZ5d/dpvwd
+iQ4rCSoTBvD3hMSEI5HN1QvPxDxCEhQE/4OSEmZEQi79bOpEpAtOKpj3sZKRF+P6
++NcjtaSan2aU6dsNM+oxPykgTmQwdqUZ7Jq9YwIDAQABo4IBYzCCAV8wCQYDVR0T
+BAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmlj
+YXRlMB0GA1UdDgQWBBSw4iV6quMpwIknF8/0z0Br8RsvbDCB4QYDVR0jBIHZMIHW
+gBRNtKE96JAt/PLfUD4UCH/bqte7RaGBsqSBrzCBrDELMAkGA1UEBhMCSU4xCzAJ
+BgNVBAgTAlROMRAwDgYDVQQHEwdDaGVubmFpMRQwEgYDVQQKEwtjYWxzb2Z0bGFi
+czESMBAGA1UECxMJS0VZU1VSRVNIMREwDwYDVQQDEwhDTlNVUkVTSDETMBEGA1UE
+KRMKTkFNRVNVUkVTSDEsMCoGCSqGSIb3DQEJARYdc3VyZXNoa3VtYXIuc0BjYWxz
+b2Z0bGFicy5jb22CCQCsZQqMZDpayDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNV
+HQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAWk+WR5hnzG/wAIjLW4lJMjsNqL5N
+X08iO+av4ZLP2Yy1D7OUyANtgw9UsCdkrmiNHvXyCp2uxOpHRAz0nxDAimXMKY4j
+YxOTVHNeeH7HpifgwqGnROQyFPfAwLymETezOnQLHzqi46EGIOEk+hd19KZlAYI1
+6OybS6BMMZ2sCks=
+-----END CERTIFICATE-----

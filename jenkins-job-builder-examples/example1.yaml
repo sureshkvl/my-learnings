@@ -1,0 +1,9 @@
+- job:
+    name: test_job
+    description: 'Automatically generated test'
+    project-type: freestyle
+    builders:
+      - shell: |
+          cd
+          ls -l
+          git clone https://github.com/sureshkvl/ospurge

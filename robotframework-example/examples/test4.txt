@@ -1,0 +1,18 @@
+*** Settings ***
+
+
+*** Variables ***
+
+*** Keywords ***
+
+*** Test Cases ***
+List Example
+	@{list1}=	Create list 	1	2	3	4
+	Append To list 	 	${list1}   5
+	@{list2}	Create List     a  b  c  d
+	${list3}=	Combine Lists	${list1}	${list2}
+
+	${temp}=   Get From List   ${list3}   0
+	${index}=	Get Index From List  ${list3}  5
+	Log  ${temp}
+	Log  ${index}

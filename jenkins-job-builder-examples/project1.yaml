@@ -1,0 +1,5 @@
+- project:
+    name: job1
+    command: ls
+    jobs:
+      - '{name}_job'

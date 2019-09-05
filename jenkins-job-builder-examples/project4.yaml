@@ -1,0 +1,5 @@
+- project:
+    name: job4
+    command: cat
+    jobs:
+      - '{name}_job'

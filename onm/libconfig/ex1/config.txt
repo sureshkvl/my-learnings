@@ -1,0 +1,16 @@
+filedetails = "Device Configuration file";
+device_details : 
+{
+  Manufacturer-Name = "MAICHTROL";
+  Serial-No = "2013-AA-BB-12-12-12";
+  Model-No = "RTR-7500";
+};
+global_config : 
+{
+  name = "newname";
+  location = "newlocation";
+  para1 = 20;
+  para2 = 30;
+  para3 = 40;
+  timers = [ 10, 10, 40, 30 ];
+};

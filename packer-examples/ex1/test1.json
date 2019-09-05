@@ -1,0 +1,22 @@
+{
+  "builders": [{
+      "type": "openstack",
+      "image_name": "packer-test-image",
+      "source_image": "ac9d6735-7c2b-4ff1-90e9-b45225fd80a9",
+      "flavor": "17",
+      "networks": "4f835398-d98d-4fc4-b2e2-f8557f741fde",
+      "floating_ip_pool": "b5dd7532-1533-4b9c-8bf9-e66631a9be1d",
+      "use_floating_ip": true,
+      "security_groups": ["securegroup"],
+      "ssh_username": "cloud"
+    }
+  ],
+  "provisioners": [{
+    "type": "shell",
+    "inline": [
+      "sleep 30",
+      "sudo apt-get update",
+      "sudo apt-get install -y nginx"
+    ]
+  }]
+}
