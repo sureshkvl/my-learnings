@@ -1,0 +1,31 @@
+P4 - LAB Guide
+*********************
+
+
+Refernce : https://github.com/p4lang/tutorials
+
+
+## 1. Testbed installation
+========================
+
+1. Ubuntu 16.04 Desktop/Server Edition with 8GB Ram / 2Core Processor.
+
+2. Run 'sudo ./install.sh'
+
+It will take 30 to 45 mins to compile/build/install the required modules for P4.
+
+3. Reboot the system
+
+sudo reboot
+
+## 2. Quick Testing
+========================
+
+1. git Clone the "https://github.com/p4lang/tutorials" repo
+
+2. cd tutorials/exercises/basic
+
+3. make run
+
+4. mininet prompt should open, and "pingall" should fail.
+
