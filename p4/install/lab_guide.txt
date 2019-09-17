@@ -29,3 +29,12 @@ sudo reboot
 
 4. mininet prompt should open, and "pingall" should fail.
 
+5. typ exit
+
+6. make stop
+
+7. make clean
+
+
+
+

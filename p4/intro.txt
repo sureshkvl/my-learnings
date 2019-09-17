@@ -1,0 +1,88 @@
+P4 Language (Data Plane Programming Language)
+*********************************************
+
+https://www.youtube.com/watch?v=GslseT4hY1w&t=72s
+https://www.youtube.com/watch?v=yqxpypXIOtQ
+
+
+Language Versions:
+-------------------
+1. P4 ver 14
+2. P4 ver 16
+
+
+Switch Arch Versions:
+-----------------------
+1. P4 ver 16 PSA
+
+
+PISA: Protocol Independent(Portable)  Switch Arch - V1 Arch
+======================================
+1. Programmable parser
+
+2. Programmable Match/Action pipeline
+
+3. Programmable Deparser
+
+
+
+P4_16 Program
+======================
+
+bmv2-simple_switch target: (PSA V1 Archi)
+
+
+
+P4_Runtime
+============
+
+
+
+
+
+
+P4_16 Lanaguage elements
+=======================
+
+- Data types (headers, arrays, bistrins...)
+- Expressions (Basic operations and operators)
+- Controls (table, action, control flow statements)
+- Parsers (state machine)
+
+
+
+
+P4_16 Data  types
+==================
+
+Basic: bit, int,varbit
+Deriverd: header,struct, typedef
+
+
+
+Programming the Parser
+======================
+
+parser will have 3 predefined states
+
+1. start state
+
+2. accept state
+
+3. Reject state
+
+
+other state are user defined.
+
+
+
+controls
+==========
+
+no loops
+Direct Acyclic Graphs (only forward)
+All kind of processing (Match-action, Deparser, )
+only if condition, switch
+
+
+
