@@ -10,11 +10,21 @@ Refernce : https://github.com/p4lang/tutorials
 
 1. Ubuntu 16.04 Desktop/Server Edition with 8GB Ram / 2Core Processor.
 
-2. Run 'sudo ./install.sh'
+2. wget https://raw.githubusercontent.com/sureshkvl/my-learnings/master/p4/install/root-bootstrap.sh
+
+3. chmod 777 root-bootstrap.sh
+
+4. wget https://raw.githubusercontent.com/sureshkvl/my-learnings/master/p4/install/user-bootstrap.sh
+
+5. chmod 777 user-bootstrap.sh
+
+6. sudo ./root-bootstrap.sh
+
+7. ./user-bootstrap.sh
 
 It will take 30 to 45 mins to compile/build/install the required modules for P4.
 
-3. Reboot the system
+8. Reboot the system
 
 sudo reboot
 
@@ -33,7 +43,7 @@ sudo reboot
 
 6. make stop
 
-7. make clean
+7. make clean	
 
 
 
